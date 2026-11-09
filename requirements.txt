@@ -3,3 +3,5 @@ numpy
 pyyaml
 ipykernel
 networkx
+matplotlib
+seaborn
