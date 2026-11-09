@@ -8,7 +8,7 @@ def load_config_yaml(config_file: str | Path) -> dict:
     path = Path(config_file)
     project_root = Path(__file__).resolve().parents[2]
     if not path.is_absolute():
-        configured_path = project_root / "resources" / "configs" / path
+        configured_path = project_root / "resources" / path
         path = configured_path if configured_path.exists() else project_root / path
 
     with path.open(encoding="utf-8") as config_stream:
