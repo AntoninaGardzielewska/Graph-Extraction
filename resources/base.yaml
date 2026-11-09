@@ -1,2 +1,12 @@
 data:
     path_to_data: C:\Users\agardzielewska\WORK\test\Graph-Extraction\data
+    path_to_ann: C:\Users\agardzielewska\WORK\test\Graph-Extraction\data\RegulaTome-corpus\graphs
+
+visualization:
+  print_summary: true
+  enabled: true
+  top_n: 100          # used when center is not set
+  center: null        # e.g. "p53" to plot a node's neighborhood
+  radius: 1
+  output_path: C:\Users\agardzielewska\WORK\test\Graph-Extraction\data\plots\graph.html
+  show_edge_labels: true
